@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="carbontech.guideme">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_VOICEMAIL" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+
+    <application
+        android:name=".Other.AppController"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Activity.MainActivity" />
+        <activity
+            android:name=".LoginReg.SignupActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".LoginReg.LoginActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".LoginReg.ResetPasswordActivity" />
+        <activity android:name=".Activity.Teacher" />
+        <activity android:name=".Activity.Doctor" />
+        <activity android:name=".Activity.Pshycometric" />
+        <activity android:name=".Activity.pshy_menu" />
+        <activity android:name=".Activity.Question" />
+        <activity android:name=".Activity.Result" />
+        <activity android:name=".Doctor.View_Student" />
+        <activity android:name=".Doctor.Student_Prof" />
+        <activity
+            android:name=".Doctor.StudentResult"
+            android:exported="true"
+            android:label="Analysis Report">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Activity.PerfMenu" />
+        <activity android:name=".Teacher.Performance" />
+        <activity android:name=".Teacher.View_" />
+        <activity android:name=".Teacher.Student_Prof" />
+        <activity android:name=".Teacher.StudentResult" />
+
+
+        <activity android:name=".chat.Login"/>
+        <activity android:name=".chat.Register" />
+        <activity android:name=".chat.Users" />
+        <activity android:name=".chat.Chat" />
+    </application>
+
+</manifest>

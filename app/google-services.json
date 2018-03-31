@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "600907391168",
+    "firebase_url": "https://guideme-9f5b8.firebaseio.com",
+    "project_id": "guideme-9f5b8",
+    "storage_bucket": "guideme-9f5b8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:600907391168:android:2d715b4889ee8c33",
+        "android_client_info": {
+          "package_name": "carbontech.guideme"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "600907391168-23n3rso0lj9glhdtnvoneqeb3r9a0l0t.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "carbontech.guideme",
+            "certificate_hash": "8b829030ea3239aa6048de6f64273d026753cbe6"
+          }
+        },
+        {
+          "client_id": "600907391168-bag8b7u2rc523oujku64ab5eivhiqq7f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDT2syZ-w5wSM1jX8OD1vZ6SsWklJZ95oo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "600907391168-bag8b7u2rc523oujku64ab5eivhiqq7f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
